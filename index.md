@@ -23,7 +23,7 @@ Generally this has become a lightweight Flask app for practicing various skills 
 
 Full project source codes available here:
 
-https://github.com/ketcheon/Practice
+[https://github.com/ketcheon/Practice](https://github.com/ketcheon/Practice)
 
 
 ## Installation
