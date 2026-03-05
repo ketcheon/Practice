@@ -56,7 +56,7 @@ A lightweight Flask app for practicing various skills such as piano exercises, q
     python app.py
     ```
 
-> Note: The app is configured for HTTPS by default. Update `ssl_context` in `app.py` with your certificates, or remove it for HTTP testing.
+> Note: The app is configured for HTTP by default. Update and uncomment `ssl_context` in `app.py` with your certificates, or remove it for HTTP testing.
 
 6. Access the app:
 
@@ -79,7 +79,7 @@ A lightweight Flask app for practicing various skills such as piano exercises, q
 - Adjust countdown date for any event.
 - Adjust the auto-refresh interval (in seconds) for timed exercises.
 - Entries are comma-separated strings.
-- Add SSL cert, uncomment the last segment of app.py and point the SSL cert pem file. SSL cert generation beyond this guide. 
+- Add SSL cert, uncomment the last segment of `ssl_context` in `app.py` and point the SSL cert pem file. SSL cert generation beyond this guide. 
 
 ## File Structure
 practice/
