@@ -84,14 +84,20 @@ Generally this has become a lightweight Flask app for practicing various skills 
 - Add SSL cert, uncomment the last segment of `ssl_context` in `app.py` and point the SSL cert pem file. SSL cert generation beyond this guide. 
 
 ## File Structure
-practice/
-├── app.py
+
+practice-flask-app/
+├── app.py                 # Main Flask application
 ├── templates/
-│ ├── index.html
-│ ├── index.refresh.html
-│ └── admin.html
-├── settings.json
-└── README.md
+│   ├── index.html         # Main page template
+│   ├── index.refresh.html # Auto-refresh page template
+│   └── admin.html         # Admin panel template
+├── static/
+│   └── style.css          # Optional CSS
+├── settings.json          # Persistent settings storage
+├── entries.json           # Practice entries storage
+├── requirements.txt       # Python dependencies
+└── README.md              # This file
+
 
 ## Sample Run
 
