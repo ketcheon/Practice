@@ -31,7 +31,7 @@ Full project source codes available here:
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/yourusername/practice.git
+    git clone https://github.com/ketcheon/practice.git
     cd practice
     ```
 

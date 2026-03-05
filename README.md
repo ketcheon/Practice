@@ -21,7 +21,7 @@ Generally this has become a lightweight Flask app for practicing various skills 
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/yourusername/practice.git
+    git clone https://github.com/ketcheon/practice.git
     cd practice
     ```
 
