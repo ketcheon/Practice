@@ -85,19 +85,7 @@ Generally this has become a lightweight Flask app for practicing various skills 
 
 ## File Structure
 
-practice-flask-app/
-├── app.py                 # Main Flask application
-├── templates/
-│   ├── index.html         # Main page template
-│   ├── index.refresh.html # Auto-refresh page template
-│   └── admin.html         # Admin panel template
-├── static/
-│   └── style.css          # Optional CSS
-├── settings.json          # Persistent settings storage
-├── entries.json           # Practice entries storage
-├── requirements.txt       # Python dependencies
-└── README.md              # This file
-
+![](file.jpg)
 
 ## Sample Run
 
