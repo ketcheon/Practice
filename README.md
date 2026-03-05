@@ -1,6 +1,8 @@
 # Practice
 
-A lightweight Flask app for practicing various skills such as piano exercises, quizzes, or custom activities. Admins can manage entries, page titles, countdown, and auto-refresh intervals.
+This script idea came from my daughter, who is preparing for her piano exam. She asked me to help her practice scales by reading out scale names, e.g., "A major" or "D major arpeggio left hand," in sequence so she could practice them. I thought it would be more fun and efficient to automate this process. With this lightweight Flask app, she can use just a phone or iPad to follow randomized exercises and practice independently.
+
+Generally this has become a lightweight Flask app for practicing various skills such as piano scale exercises, quizzes, or custom activities. Admins can manage entries, page titles, countdown, and auto-refresh intervals.
 
 ## Features
 
