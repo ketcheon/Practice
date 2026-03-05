@@ -18,6 +18,14 @@ Generally this has become a lightweight Flask app for practicing various skills 
 - Auto-refresh page for continuous practice
 - **Persistent settings**: all changes made in the admin panel are saved to `settings.json` and survive server restarts
 
+
+## Project Files
+
+Full project source codes available here:
+
+https://github.com/ketcheon/Practice
+
+
 ## Installation
 
 1. Clone the repository:
