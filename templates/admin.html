@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Admin Panel</title>
+</head>
+<body>
+    <h1>Admin Panel - Update Practice Settings</h1>
+    <form method="POST">
+        <label for="page_title">Page Title:</label>
+        <input type="text" id="page_title" name="page_title" value="{{ page_title }}"><br><br>
+
+        <label for="refresh_interval">Refresh Interval (seconds):</label>
+        <input type="number" id="refresh_interval" name="refresh_interval" value="{{ refresh_interval }}"><br><br>
+
+        <label for="countdown_date">Countdown Date (YYYY-MM-DDTHH:MM:SS):</label>
+        <input type="text" id="countdown_date" name="countdown_date" value="{{ countdown_date }}"><br><br>
+
+        <label for="entries">Enter entries (comma-separated):</label>
+        <input type="text" id="entries" name="entries" size="100" value="{{ ','.join(entries) }}"><br><br>
+
+        <button type="submit">Update Settings</button>
+    </form>
+
+    <h3>Current Entries:</h3>
+    <p>{{ entries }}</p>
+    <h3>Current Page Title:</h3>
+    <p>{{ page_title }}</p>
+    <h3>Current Refresh Interval:</h3>
+    <p>{{ refresh_interval }} seconds</p>
+    <h3>Current Countdown Date:</h3>
+    <p>{{ countdown_date }}</p>
+</body>
+</html>
